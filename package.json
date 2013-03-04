@@ -8,7 +8,9 @@
     "description": "Inject code into the living process",
     "version": "0.0.1",
     "main": "./livenode.js",
-
+    "bin": {
+      "livenode": "./bin/livenode"
+    },
     "dependencies": {
         "uglify-js": "~2.2.5",
         "ws": "~0.4.25"
